@@ -1,0 +1,54 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+.header {
+  background-image: url("../assets/header.jpg");
+  background-color: #FFF;
+  height: 523px;
+  width: 100%;
+}
+.navigation {
+  width: 100%;
+  height: 75px;
+}
+.logo {
+  float: left;
+  position: relative;
+  left: 12%;
+  top: 15px;
+}
+.logo span {
+  position: relative;
+  display: block;
+  float: right;
+  color: #083452;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding-left: 4%;
+  margin-top: 10px;
+}
+.nav {
+  width: 100%;
+}
+.nav ul {
+  float: right;
+}
+.nav li {
+  width: 35%;
+  float:left;
+  list-style: none;
+}
+
+.main {
+  width: 100%;
+  height: 200px;
+}
+.main h1 {
+  margin: 0px;
+}
