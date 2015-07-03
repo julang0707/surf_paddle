@@ -100,3 +100,22 @@ aside {
     padding: 0px;
     width: 100%;
 }
+
+
+.share {
+  width: 100%;
+}
+button .one  {
+  width: 23.5%;
+  height: 23px;
+  padding: 5px;
+}
+button .one img {
+  background-color: #5E686F;
+}
+button .one span {
+  background-color: #ccc;
+  color: #FFF;
+  padding: 5px;
+  font-size: 15px;
+}
