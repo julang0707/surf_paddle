@@ -1,0 +1,11 @@
+.header {
+
+}
+main, aside {
+  float: none;
+  width: auto;
+}
+.popular li {
+  float: none;
+  width: auto;
+}

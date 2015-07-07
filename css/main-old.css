@@ -119,3 +119,63 @@ button .one span {
   padding: 5px;
   font-size: 15px;
 }
+
+.popular {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.popular h1 {
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-top: 1px solid #ccc;
+  margin-top: 57px;
+  margin-bottom: 27px;
+  padding-top: 20px;
+  padding-left: 5%;
+  list-style: none;
+}
+.popular ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+.popular li {
+  display: inline-block;
+  width: 25%;
+  margin: 0px;
+  padding: 0px;
+  height: 330px;
+  float: left;
+  background-color: #083452;
+  opacity: .9;
+  position: relative;
+  overflow: hidden;
+}
+.images a {
+  color: #083452;
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  text-decoration: none;
+  padding-left: 5%;
+  padding-top: 250px;
+  display: inline-block;
+  z-index: 1;
+}
+.images li:nth-child(3) a{
+  padding-top: 210px;
+  line-height: 1.2;
+}
+.popular img{
+    opacity: .4;
+    position: relative;
+}
+.images li:hover {
+  background:none;
+  opacity: 1;
+}
